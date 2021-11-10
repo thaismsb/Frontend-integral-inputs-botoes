@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(115, 117, 177);
+    font-family: 'Open Sans', sans-serif; 
+    
+}
+h1{
+    font-size: 24px;
+    font-weight: 700;
+    align-self: center;
+}
+.dois{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    align-self: flex-start; 
+}
+span{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 590px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 8px;
+    padding: 45px 45px;
+  
+}
+.input-container label{
+    color: rgb(5, 5, 5);
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.botao1{
+    all:unset;
+    box-sizing: border-box;
+    background-color:white;
+    color:black;
+    font-weight: 400;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid#CED5EC;
+    
+}
+
+
+  .botoes2{
+    all:unset;
+    box-sizing: border-box;
+    background-color:white;
+    color:black;
+    font-weight: 400;
+    padding: 8px 45px 8px 12px;
+    border-radius: 8px;
+    border: 1px solid#CED5EC;
+   
+       
+} 
+
+.botoes2 input:focus{
+
+    border: 1px solid rgb(43, 151, 223);
+}
+
+
+.input-container input:focus{
+    border: 1px solid rgb(43, 151, 223);
+}
+.input-container-mae input:focus{
+    border: 1px solid rgb(43, 151, 223);
+}
+
+.input-container-mae label{
+color: rgb(5, 5, 5);
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.input-container-mae{
+    
+ display:flex;
+ box-sizing: border-box;
+ flex-direction: row;
+ justify-content: space-between;
+ align-content: center;
+ margin-top: 20px;
+ 
+}
+.container button{
+    all:unset;
+    box-sizing: border-box;
+    text-align:center;
+    background-color:#5F82FF;
+    color: white;
+    border-radius: 8px;
+    padding: 45px 45px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;   
+ 
+}   
+
+.container button:hover{
+    background-color: #093DF3
+    
+}
+
+
+
